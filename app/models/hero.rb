@@ -5,7 +5,7 @@ class Hero
         # binding.pry
         @name=params[:name]
         @power=params[:power]
-        @bio=params[:power]
+        @bio=params[:bio]
         @@all << self        
     end
 
